@@ -1,0 +1,19 @@
+{
+  "name": "saxoniacoin",
+  "version": "1.0.0",
+  "description": "SaxoniaCoin ERC-20 token - Truffle project",
+  "author": "Stefan Bley",
+  "private": true,
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.5.0"
+  },
+  "devDependencies": {
+    "truffle": "^4.0.5",
+    "ganache-cli": "^6.0.3"
+  }
+}
