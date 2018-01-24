@@ -1,4 +1,7 @@
 # SaxoniaCoin
+[![Dependency Status](https://david-dm.org/sbley/SaxoniaCoin.svg)](https://david-dm.org/sbley/SaxoniaCoin)
+[![Dev Dependency Status](https://david-dm.org/sbley/SaxoniaCoin/dev-status.svg)](https://david-dm.org/sbley/SaxoniaCoin?type=dev)
+
 
 SaxoniaCoin is an ERC-20 token smart contract for the [Ethereum](https://ethereum.org/) platform.
 
