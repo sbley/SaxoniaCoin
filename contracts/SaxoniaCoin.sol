@@ -1,7 +1,7 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.24;
 
-import "zeppelin-solidity/contracts/token/StandardToken.sol";
-import "zeppelin-solidity/contracts/lifecycle/Destructible.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
+import "openzeppelin-solidity/contracts/lifecycle/Destructible.sol";
 
 /**
  * @title SaxoniaCoin
@@ -20,8 +20,8 @@ contract SaxoniaCoin is StandardToken, Destructible {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    function SaxoniaCoin() public {
-        totalSupply = INITIAL_SUPPLY;
+    constructor() public {
+        totalSupply_ = INITIAL_SUPPLY;
         balances[msg.sender] = INITIAL_SUPPLY;
     }
 
